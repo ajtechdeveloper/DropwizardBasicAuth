@@ -8,9 +8,6 @@ import io.dropwizard.auth.AuthenticationException;
 import io.dropwizard.auth.Authenticator;
 import io.dropwizard.auth.basic.BasicCredentials;
 
-/**
- * Created by georgeninan on 5/12/16.
- */
 
 public class SimpleAuthenticator implements Authenticator<BasicCredentials, ApplicationUser> {
 
